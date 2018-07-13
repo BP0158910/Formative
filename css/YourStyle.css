@@ -1,23 +1,121 @@
-/* set styles for body */
+/* set styles for body light pink */
 html, body {
     height: 100%;
-    background-color: orange;
+    background-color: #F7F7D4;
     padding-top: 50px;
+    font-size: 100%;
 }
-/* set the style for page-header to blue */
+/* set the style for page-header to grey */
 .page-header{
-color: blue;}
+color: Black;
+background-color:#B2D732;
+padding: 20px;
+border: 2px solid black;
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+font-size: 2.5em
+}
 
 /* set the style for navbar brand blue */
 .navbar-brand{
-background-color: blue;
+background-color:#1B3409;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.50em
 }
-/* set the style for navbar background to red */
+/* set the style for navbar background to green */
 .navbar{
-background-color: red;
+background-color:#B2D732;
 }
 
-/* Add your styles below with commenst */
+/* Add your styles below with comments */
+
+
+
+/* 3 styles of paragraphs, with seperate font colours and background colours*/
+p.error { 
+color:#333333;
+background-color: #FEFE33;
+text-indent: 50px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em
+}
+
+p.correct {
+color: #4d4d4d;
+background-color: #B2D732;
+text-indent: 50px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em
+}
+
+p.undecided {
+color:#1a1a1a;
+background-color: #66B032;
+text-indent: 50px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em
+}
+
+div.ex2 {
+    max-width:500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+/* image gallery for the products page*/  
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.Londonskyline{ 
+    max-width: 100%;
+    height: auto;
+    }
+
 
 
 
