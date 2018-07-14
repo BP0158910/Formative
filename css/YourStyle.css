@@ -15,6 +15,21 @@ text-align: left;
 font-family: "Times New Roman", Times, serif;
 font-size: 2.5em
 }
+/*heading with light beige background*/
+
+h2 {
+color:Black;
+background-color:#FFFFCC;
+font-family: "Times New Roman", Times, serif;
+font-size: 2em
+}
+/* no background colour on heading*/
+
+h2.simple{
+color:Black;
+font-family: "Times New Roman", Times, serif;
+font-size: 2em
+}
 
 /* set the style for navbar brand blue */
 .navbar-brand{
@@ -32,30 +47,41 @@ background-color:#B2D732;
 
 
 /* 3 styles of paragraphs, with seperate font colours and background colours*/
-p.error { 
-color:#333333;
-background-color: #FEFE33;
-text-indent: 50px;
-font-family: "Times New Roman", Times, serif;
-font-size: 1.25em
-}
 
-p.correct {
-color: #4d4d4d;
-background-color: #B2D732;
-text-indent: 50px;
-font-family: "Times New Roman", Times, serif;
-font-size: 1.25em
-}
+/*beige background*/
 
 p.undecided {
-color:#1a1a1a;
-background-color: #66B032;
-text-indent: 50px;
+color:#1F1F1F;
+background-color: #F0F0AD;
+text-indent: 30px;
 font-family: "Times New Roman", Times, serif;
 font-size: 1.25em
 }
 
+/*same font no beige background*/
+
+p.correct {
+color:#1F1F1F;
+text-indent: 30px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em
+}
+
+p.justify {
+text-align: center;
+color:#1F1F1F;
+text-indent: 30px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em
+}
+
+ul {
+color:#1F1F1F;
+background-color:#FFFFE0;
+text-indent: 30px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em
+}
 div.ex2 {
     max-width:500px;
     margin: auto;
@@ -110,14 +136,56 @@ div.desc {
     display: table;
     clear: both;
     }
-
+/*image editing*/
 .Londonskyline{ 
     max-width: 100%;
     height: auto;
     }
-
+/*image editing*/
 .biofuel{
 max-width: 25%;
 height: auto;
 float: right;
+}
+
+/* coffee van image edit*/
+.coffeevan{
+max-width: 30%;
+height: auto;
+float: right;
+}
+
+/* video make it responsive*/
+
+video {
+max-width: 100%;
+height: auto;
+}
+
+.center {
+margin: 0 auto;
+width: 450px;
+}
+
+/*responsive products table*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+/*center align and font changes*/
+h4 {
+text-align: center;
+color:#1F1F1F;
+text-indent: 30px;
+font-family: "Times New Roman", Times, serif;
+font-size: 2em
 }
