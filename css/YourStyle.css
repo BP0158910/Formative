@@ -1,11 +1,11 @@
-/* set styles for body light pink */
+/* set styles for body light beige */
 html, body {
     height: 100%;
-    background-color: #F7F7D4;
+    background-color: #FEFFEB;
     padding-top: 50px;
     font-size: 100%;
 }
-/* set the style for page-header to grey */
+/* set the style for page-header to light green */
 .page-header{
 color: Black;
 background-color:#B2D732;
@@ -15,14 +15,43 @@ text-align: left;
 font-family: "Times New Roman", Times, serif;
 font-size: 2.5em
 }
-/*heading with light beige background*/
 
+/*Subheadings*/
 h2 {
 color:Black;
-background-color:#FFFFCC;
+background-color:#B2D732;
 font-family: "Times New Roman", Times, serif;
-font-size: 2em
+font-size: 2em;
+height: 60px;
+padding: 15px 15px 15px 15px;
+border: 1px solid black;
 }
+
+/* sets padding around text*/
+div.ex1 {
+max-width: 1140px;
+padding: 10px 30px 10px 30px;
+box-sizing: border-box;
+}
+/* styling paragraphs throughout website page*/
+div.ex5 {
+max-width: 1140px;
+margin-top: 25px;
+margin-bottom:25px;
+margin-right:150px;
+margin-left:150px;
+}
+
+.no-padding{
+padding: 0px;
+}
+
+.no-margin{
+margin-top: -50px;
+margin-bottom: -30px;
+}
+
+
 /* no background colour on heading*/
 
 h2.simple{
@@ -31,7 +60,7 @@ font-family: "Times New Roman", Times, serif;
 font-size: 2em
 }
 
-/* set the style for navbar brand blue */
+/* set the style for navbar brand to dark green */
 .navbar-brand{
 background-color:#1B3409;
 font-family: "Times New Roman", Times, serif;
@@ -41,22 +70,7 @@ font-size: 1.50em
 .navbar{
 background-color:#B2D732;
 }
-
-/* Add your styles below with comments */
-
-
-
-/* 3 styles of paragraphs, with seperate font colours and background colours*/
-
-/*beige background*/
-
-p.undecided {
-color:#1F1F1F;
-background-color: #F0F0AD;
-text-indent: 30px;
-font-family: "Times New Roman", Times, serif;
-font-size: 1.25em
-}
+/* 2 styles of paragraphs, one for main body *justify* for academic warning*/
 
 /*same font no beige background*/
 
@@ -64,7 +78,7 @@ p.correct {
 color:#1F1F1F;
 text-indent: 30px;
 font-family: "Times New Roman", Times, serif;
-font-size: 1.25em
+font-size: 1.25em;
 }
 
 p.justify {
@@ -72,20 +86,28 @@ text-align: center;
 color:#1F1F1F;
 text-indent: 30px;
 font-family: "Times New Roman", Times, serif;
-font-size: 1.25em
+font-size: 1.25em;
 }
 
 ul {
 color:#1F1F1F;
-background-color:#FFFFE0;
 text-indent: 30px;
 font-family: "Times New Roman", Times, serif;
 font-size: 1.25em
 }
+
 div.ex2 {
     max-width:500px;
     margin: auto;
-    border: 3px solid #73AD21;
+    border: 3px solid #B2D732;
+    padding: 15px;
+}
+
+div.ex3 {
+max-width: 782.667px;
+margin: auto;
+border: 3px solid #B2D732;
+padding: 10px;
 }
 
 /* image gallery for the products page*/  
@@ -148,6 +170,24 @@ height: auto;
 float: right;
 }
 
+.route1 {
+max-width: 60%;
+height: auto;
+float: right;
+}
+
+.Ben{
+max-width: 200px;
+height: auto;
+float: left;
+}
+
+.Alex{
+max-width: 150px;
+height: auto;
+float: right;
+}
+
 /* coffee van image edit*/
 .coffeevan{
 max-width: 30%;
@@ -155,7 +195,7 @@ height: auto;
 float: right;
 }
 
-/* video make it responsive*/
+/* make video responsive*/
 
 video {
 max-width: 100%;
@@ -187,5 +227,94 @@ text-align: center;
 color:#1F1F1F;
 text-indent: 30px;
 font-family: "Times New Roman", Times, serif;
-font-size: 2em
+font-size: 2em;
+}
+
+.header-logo {
+max-width: 200px;
+margin-top:-15px;
+float: left;
+}
+
+.centered {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/*footer editing*/
+
+footer.main {
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-color: #1B3409;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: none;
+    flex: none;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+footer.main .social-links {
+    background-color: #B2D732;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+}
+.social-links {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    z-index: 20;
+}
+
+.social-buttons {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+        margin-left: 0px;
+    padding: 0;
+        padding-left: 0px;
+    width: 100%;
+}
+
+.white {
+color: white;
+}
+
+p.rejustify {
+text-align: center;
+color:#cccccc;
+text-indent: 30px;
+font-family: "Times New Roman", Times, serif;
+font-size: 1.25em;
+}
+
+.container1 {
+margin-right:10px;
+text-align: center;
+width: 25%;
+border: 2px solid white;
+padding: 2px;
+}
+
+.container2 {
+margin-left: 300px;
+text-align: center;
+width: 50%;
+border: 2px solid white;
+padding: 2px;
 }
