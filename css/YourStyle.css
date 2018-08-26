@@ -9,11 +9,22 @@ html, body {
 .page-header{
 color: Black;
 background-color:#B2D732;
+padding: 15px;
+border: 2px solid black;
+text-align: left;
+font-family: "Times New Roman", Times, serif;
+font-size: 2.25em;
+}
+
+.page-header2{
+color: Black;
+background-color:#B2D732;
 padding: 20px;
 border: 2px solid black;
 text-align: left;
 font-family: "Times New Roman", Times, serif;
-font-size: 2.5em
+font-size: 2.5em;
+margin-top: 8px;
 }
 
 /*Subheadings*/
@@ -47,8 +58,8 @@ padding: 0px;
 }
 
 .no-margin{
-margin-top: -50px;
-margin-bottom: -30px;
+margin-top: -45px;
+margin-bottom: 0px;
 }
 
 
@@ -64,7 +75,7 @@ font-size: 2em
 .navbar-brand{
 background-color:#1B3409;
 font-family: "Times New Roman", Times, serif;
-font-size: 1.50em
+font-size: 1.50em;
 }
 /* set the style for navbar background to green */
 .navbar{
@@ -163,19 +174,14 @@ div.desc {
     max-width: 100%;
     height: auto;
     }
-/*image editing*/
-.biofuel{
-max-width: 25%;
-height: auto;
-float: right;
-}
 
+/*image editing*/
 .route1 {
 max-width: 60%;
 height: auto;
 float: right;
 }
-
+/*images of previous customers*/
 .Ben{
 max-width: 200px;
 height: auto;
@@ -192,7 +198,7 @@ float: right;
 .coffeevan{
 max-width: 30%;
 height: auto;
-float: right;
+margin-left: 478px; 
 }
 
 /* make video responsive*/
@@ -256,12 +262,15 @@ footer.main {
     -ms-flex-pack: center;
     justify-content: center;
 }
+/*editing for social media in footer*/
+
 footer.main .social-links {
     background-color: #B2D732;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-bottom: 1rem;
 }
+
 .social-links {
     -ms-flex-align: center;
     align-items: center;
@@ -290,7 +299,7 @@ footer.main .social-links {
         padding-left: 0px;
     width: 100%;
 }
-
+/*turning all text in footer white*/
 .white {
 color: white;
 }
@@ -312,9 +321,23 @@ padding: 2px;
 }
 
 .container2 {
-margin-left: 300px;
+margin-left: 350px;
 text-align: center;
 width: 50%;
-border: 2px solid white;
-padding: 2px;
+}
+
+.container7 {
+margin-left: 315px;
+text-align: center;
+width: 55%;
+}
+
+/*container for welcome message*/
+.container6 {
+margin-top: 5px;
+padding: 10px;
+}
+
+.style {
+list-style-type:none
 }
